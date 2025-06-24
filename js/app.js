@@ -49,13 +49,10 @@ function renderWorkout(){
     updateSummary();
 }
 
-function deleteWorkout(id){
-    workouts = workouts.filter(workout =>{
-        workout.id !==id
-        saveWorkouts();
+function deleteWorkout(id) {
+    workouts = workouts.filter(workout => workout.id !== id);
+    saveWorkout();
     renderWorkout();
-
-    });
 }
 
 function updateSummary() {
