@@ -1,0 +1,84 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: rgb(228, 233, 238);
+    padding: 20px;
+}
+
+header{
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.workout-form h2{
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+main{
+    max-width: 400px;
+    margin: auto;
+}
+form input, form button {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 10px;
+    font-size: 1rem;
+    outline: 0;
+    border: none;
+    border-radius: 10px;
+    font-size: 16px;
+    box-shadow: 0px 0px 10px rgb(111, 111, 173);
+}
+h1{
+    font-size: 2rem;
+}
+
+section{
+    border-radius: 8px;
+    background-color: rgba(0, 210, 211,1.0)fff;
+    padding: 15px;
+    margin: 20px;
+    box-shadow: 0px 0px 10px rgb(110, 110, 205);
+}
+
+form button{
+    border: none;
+    cursor: pointer;
+    background-color: rgb(38, 53, 69);
+    color: #fff;
+    font-weight: 600;
+}
+form button:hover{
+    background-color: rgb(3, 51, 105);
+}
+
+ul {
+    list-style: none;
+}
+
+.workout-item {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+.workout-item:last-child {
+    border-bottom: none;
+}
+
+.delete{
+    background-color: rgb(220, 13, 13);
+    color: white;
+    font: bold;
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+    font-size: 14px;
+    cursor: pointer;
+}

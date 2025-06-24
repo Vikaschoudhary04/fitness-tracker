@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>fitness-tracker</title>
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+    <header>
+      <h1>Fitness Workout Tracker</h1>
+    </header>
+    <main>
+      <section class="workout-form">
+        <h2>Add New Workout</h2>
+        <form action="" id="workoutForm">
+          <input type="text" id="exerciseName" placeholder="Exercise Name" />
+          <input type="number" id="sets" placeholder="Sets" required />
+          <input type="number" id="reps" placeholder="Reps" required />
+          <input
+            type="number"
+            id="duration"
+            placeholder="duration(min)"
+            required
+          />
+          <input type="date" id="workoutDate" required />
+          <button type="submit">Add Workout</button>
+        </form>
+      </section>
+      <section class="workout-summary">
+        <h2>Summary</h2>
+        <p>Total Workout <span id="totalWorkouts">0</span></p>
+        <p>Total Duration: <span id="totalDuration">0</span> min</p>
+      </section>
+      <section class="workout-list">
+        <h2>Workout History</h2>
+        <ul id="workoutList"></ul>
+      </section>
+    </main>
+    <script src="js/app.js"></script>
+  </body>
+</html>
